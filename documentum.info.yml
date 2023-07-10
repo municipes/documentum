@@ -5,18 +5,22 @@ package: "Municipes"
 type: module
 core_version_requirement: ^9.5 || ^10
 dependencies:
+  - drupal:datetime
   - drupal:views
   - drupal:media_library
   - drupal:path
   - drupal:text
   - drupal:menu_ui
+  - entity_reference_revisions:entity_reference_revisions
   - field_group:field_group
   - focal_point:focal_point
   - imce:imce
   - inline_entity_form:inline_entity_form
+  - paragraphs:paragraphs
   - type_tray:type_tray
   - ui_patterns_field_formatters:ui_patterns_field_formatters
   - viewsreference:viewsreference
   - municipes:lexicum
   - municipes:fundamentum
+  - municipes:bibliotheca
 
